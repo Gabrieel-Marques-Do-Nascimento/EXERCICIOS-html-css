@@ -8,6 +8,7 @@ header{
     background: black;
     color: white;
     text-align:center;
+    margin: -10px;
     padding: 10px;
 }
 header > h1{
