@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+
+    .container *{
+        min-height: 100px;
+        border-radius: 4px;
+       
+        font-variant: small-caps;
+        color: white;
+        text-shadow: 0px 2px 7px black;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        display:grid;
+        /*orinhetacao em grade*/
+     grid-template-rows: repeat(4, auto); /*  as 4 linhas tamanho automatico*/
+      /* determina tamanho de cada linha = height  repeat(num colunas , tamanho) */
+
+    /* grid-auto-rows: repeat(5, auto);/*cria linhas automaticament */
+/*so pode usar numeros positivos nos elementos filho negativos da problema melhor nao*/
+
+    grid-template-columns: 240px 1fr;
+    /* determina tamanho de cada coluna = width */
+       gap: 1rem; /* espaco entreos elementos*/
+    }
+    header{
+        background-color: aqua;
+        grid-column: 1/-1; /*vai da coluna 1 ate a ultima (-1) = representa a ultima*/
+       /*   grid-row: 1/2;vi da linha 1 a linha 2*/
+           grid-row: 1;
+    } 
+     nav{
+        background-color: brown;
+        grid-row: 2/-2; /* vai da linha 1 ate a linha 5*/
+       /* grid-row: 2/5; */
+    }
+    section{background-color: burlywood;
+      grid-column: 2/-1; /* comeca na coluna 2 ate a "ultima" = (-1)*/
+      
+    }  
+    footer{
+      background-color: rgb(130, 128, 126);
+      grid-column: 1/-1; /*comeca na coluna 1 ate a "ultima" = (-1)*/
+      grid-row: -2/-1; /* vai da penutima = -2 a te a ultima = -1*/
+    }
+    div.container > main{ 
+        /*se as mudacas nao funcionar especifique pozicao da tag ex: div > main*/
+
+        background-color: rgb(114, 114, 113);
+        display: grid; /* organizado em grades */
+        grid-auto-rows: auto; /* as linhas sao criaddas automaticamente*/ /*e bom caso vc nao saiba quantos elementos vai add*/
+        grid-template-columns: repeat(3,1fr);/* 3 colunas tamanho 1fr*/
+                           /*repeat repete um valor para quantidades de colunas escolhidas*/
+        gap: 1fr; /* espaco entre as tags de 1fr*/
+       
+    }
+    article{
+      background-color: chartreuse;
+      min-height: 100px;
+      border-radius: 4px;
+    }
+  
+
+    
+</style>
+<body>
+        <div class="container">
+         <header> header </header>
+        
+        <nav> nav</nav>
+
+        <section> section</section>
+
+       
+        <main>
+            <article> article</article>
+            <article>article</article>
+            <article> article</article>
+            <article> article</article>
+            <article>article</article>
+            <article> article</article>
+            <article>article</article>
+            <article> article</article>
+            <article> article</article>
+            <article>article</article>
+            <article> article</article>
+            <article>article</article>
+            <article> article</article>
+            <article> article</article>
+            <article>article</article>
+            <article> article</article>
+            <article>article</article>
+            <article> article</article>
+            <article> article</article>
+            <article>article</article>
+        </main>
+
+         <footer> footer</footer>
+
+        </div>
+</body>
+</html>
