@@ -5,8 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-       tr, td,th {
-            border: 3px solid gray;
+        table{ 
+            font-size: 19px;
+        border-collapse: collapse;
+        }
+       td,th {
+            border: 3px solid rgb(8, 8, 8);
+            padding: 15px;
+        }
+        thead,tfoot{
+            background-color: gray;
+            color: white;
+            text-shadow: 1px -4px 1px black;
         }
     </style>
 </head>
@@ -26,11 +36,72 @@
         </thead>
         <tbody>
            <tr>
-            <th>Exatas</th>
+            <th rowspan="4">Exatas</th>
             <td>Matematica</td>
-            <td>Fisica</td>
-            <td>Quimica</td>
-            <td>Biologia</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+            <tr>
+                <td>Fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+         </tbody>
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        Media de Esatas 
+                    </th>
+                    <td>0.0</td>
+                </tr>
+            </thead>
+             <tbody>
+                <tr>
+                    <th rowspan="3">Humanas</th>
+                    <td>Historia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>Geografia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>Portugues</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+             </tbody>
+                   
+                <tfoot>
+                    <tr>
+                        <th colspan="4">
+                            Media de Humanas
+                        </th>
+                        <td>
+                            0.0
+                        </td>
+                    </tr>
+                 </tfoot>
+                    </table>
 
 
 
@@ -43,13 +114,7 @@
 
 
 
-
-
-           </tr>
-        </tbody>
-        <tfoot>
-
-        </tfoot>
-    </table>
+          
+        
 </body>
 </html>
