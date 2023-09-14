@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escopo de Grupo</title>
+</head>
+
+<style>
+    td , th{
+        text-transform: uppercase;
+        border: 3px solid gray;
+        padding: 7px 10px 7px 10px;
+    }
+  
+    
+    table{
+        margin: auto;
+        border-collapse: collapse; /* borda unica*/
+    }
+    caption{
+        font-size: 1.3em;
+    }
+    
+    table.num2{
+        margin-top: 100px;
+    }
+</style>
+
+<body>
+    <table>
+        <tr>
+            <td >1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+            <td>4</td>
+            
+        </tr>
+       <tr>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        
+       </tr>
+
+        <tr>      
+            <td colspan="3">8</td>
+            <td>9</td>
+        </tr>
+       
+        <tr>
+            <td rowspan="2">10</td>
+            <td colspan="2">11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+    </table>
+    <table class="num2">
+ 
+    <tr>
+        <td colspan="4">A</td>
+        <td rowspan="4">B</td>
+    </tr>
+    <tr>
+        <td rowspan="4">c</td>
+        <td>d</td>
+        <td>e</td>
+        <td>f</td> 
+    </tr>
+
+
+    <tr>
+        <td>g</td>
+        <td>h</td>
+        <td>i</td>
+    </tr>
+    <tr>
+        <td>j</td>
+        <td>k</td>
+        <td>l</td>
+    </tr>
+    <tr>
+        <td colspan="4">m</td>
+    </tr>
+
+
+    </table>
+
+
+    <table class="num2">
+        <caption><h1>Filmes Favoritos</h1></caption>  <!--  -->
+    <thead>
+        <th scope="col">grupo</th>
+        <th scope="col">nomes</th>
+         <th scope="colgroup" colspan="3">filmes</th><!-- grupo de 3 colunas -->
+    </thead>
+    <tfoot>
+        <th colspan="4" scope="row">Total</th> <!-- titulo de uma elemento-->
+        <td>1000</td>
+    </tfoot>
+    <tbody >
+        <tr>
+            <th rowspan="3" scope="rowgroup"> mulheres</th>  <!-- grupo de 3 linhas -->
+            <td>Ana maria</td>
+            <td>Alien</td>
+            <td>ranbo</td>
+            <td>vingadores</td>
+        </tr>
+      
+        <tr>
+              <td>beatris</td>
+              <td>hulk</td>
+              <td>inception</td>
+              <td>batman</td>
+          
+        </tr>
+        <tr> 
+            <td>claudia</td>
+            <td>Oblivion</td>
+            <td>Matrix</td>
+            <td>Big Hiro</td>
+        </tr>
+        <tr>
+            <th rowspan="3" scope="rowgroup">homens</th>
+            <td>bruno</td>
+            <td>intocaveis</td>
+            <td>Amnesia</td>
+            <td>Gladiador</td>
+        </tr>
+       
+        <tr>
+          <td>daniel</td>
+          <td>Wall-E</td>
+          <td>OLdBoy</td>
+          <td>Dargal</td>
+        </tr>
+        <tr>
+         <td>Fabio</td>
+         <td>Star Wars S</td>
+         <td>Taxi Drive</td>
+         <td>Toy Story</td>
+        </tr>
+    </tbody>
+     
+    </table>
+</body>
+</html>
