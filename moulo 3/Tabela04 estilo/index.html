@@ -14,21 +14,38 @@
         padding: 15px;
         font-size: 22px;
     }
+    .cnome{
+        background-color: chartreuse;
+    }
+    .csexo{
+
+    }
+    .cidade{
+
+    }
+    .cprof{
+
+    }
 </style>
 <body>
     <table>
 
-        
+        <colgroup>
+            <!-- definido span ='' define o stilo de uma ou mais clunas-->
+        <col class="cnome" span="2"> <!--coluna 1-->
+      <!--    <col class="csexo">  < !--coluna 2-- > -->
+        <col class="cidade"> <!--coluna 3-->
+        <col class="cprof">  <!--coluna 4-->
+        </colgroup>
 
-        <thead>
+    
             <tr>
                 <th>Nome</th>
                 <th>Sexo</th>
                 <th>Idade</th>
                 <th>Profissão</th>
             </tr>
-        </thead>
-        <tbody>
+       
             <tr>
                 <td>maria</td>
                 <td>F</td>
@@ -59,7 +76,7 @@
                 <td>21</td>
                 <td>T.I</td>
             </tr>
-        </tbody>
+        
     </table>
 </body>
 </html>
