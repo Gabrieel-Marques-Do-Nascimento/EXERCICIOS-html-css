@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iframe</title>
+
+<style>
+
+    /*  na configuracao do iframe fica valendo as css*/
+</style>
+
+
 </head>
 <body>
     <h1>Textando Iframe</h1>
@@ -12,8 +19,9 @@
 
      <p>
         Acessando o site do 
-<iframe src="https://www.cursoemvideo.com">
-
+<iframe src="https://www.cursoemvideo.com" scolling="no" frameborder="1">
+    <!--- scolling="no" no sem rolagem yes com rolagem auto navegador decide -->
+ <!--- frameborder="1"    0 sem borda 1 com borda de 1px ultilize border na css msm-->
 </iframe>
 para aprender a programar
 
@@ -22,8 +30,13 @@ para aprender a programar
         <!--- Alguns sites tem protecao contra iframes por que ele tem uns problemas de segurança-->
 
 
-        Osite do <iframe src="https://www.google.com.br" frameborder="0"></iframe> tambem e muito legal
-     </p>
+        Osite do <iframe src="https://gustavoguanabara.github.io/" frameborder="0" height="500px"
+        width="500">
 
+            aqui pode ser colocado aviso ou link direto
+       
+        </iframe> tambem e muito legal
+     </p>
+       <!---tamanho padrao e de 300 X 150 px -->
 </body>
 </html>
