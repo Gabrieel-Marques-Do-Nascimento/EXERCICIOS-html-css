@@ -1,0 +1,12 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = space  # identação space ou tab
+indent_size = 4   # tamanho da identação
+end_of_line = crlf   # pular linha no final
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
