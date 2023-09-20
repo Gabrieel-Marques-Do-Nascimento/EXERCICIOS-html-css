@@ -35,7 +35,7 @@ section#telefone{
     height:627px;
    
 }
-iframe#tela{
+iframe#tela{  /*  */  
     position: relative;
     width: 260px;
     height: 473px;
