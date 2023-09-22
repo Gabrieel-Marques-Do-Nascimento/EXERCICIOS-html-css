@@ -13,19 +13,23 @@
 <body>
      
      <h1>meu Primeiro Formmulario</h1>
-     <!--- -->  
-     <form action="cadastroi.php" autocomplete="off">  <!---sugestao de completar destivado // on ativa -->
+     <!---method="" padrao e get // post escode o q for digitado da url usado para conteudo pessoal do usuario--> 
+     <!--- get tem limite de 3,000 bite ex: 3,000 letras fotos arquivos etc use post-->
+       <!---autocomplete="on"  sugestao de completar destivado // on ativa -->
+        <!--- for="inome"   add  o id do imputi pra forma a ligacao  se o label for clicado o imput e selecionado-->
+     <form action="cadastroi.php" autocomplete="on"  method="post"> 
      
-    <p><label for="inome">Nome:</label>  <!---add  o aid do imputi pra far a ligacao -->
+    <p><label for="inome">Nome:</label> 
     <input type="text" name="nome" id="inome"> </p>
-    <p><label for="iSobrenome">Sobrenome: </label> <!--- se o label for clicado o imput e selecionado-->
+    <p><label for="iSobrenome">Sobrenome: </label> 
     
         <input type="text" name="Sobrenome" id="iSobrenome"> </p>
     <p><input type="submit" value="Enviar"></p> <!--- Value e o nome q aparece na tela-->
-    <!--- nome e mais util pro html e php
+    <!--- NAME e mais util pro html e php
             id  mais inportante pro javaScript
     -->
     
+   <!---Nao e seguro para tornar seguro add htpps estude -->
    
     </form>
 
