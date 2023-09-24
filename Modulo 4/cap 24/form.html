@@ -1,42 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formmulario</title>
-</head>
-<style>
-    *{
-      font-family: Arial, Helvetica, sans-serif;
-    }
-</style>
-<body>
-     
-     <h1>meu Primeiro Formmulario</h1>
-     <!---method="" padrao e get // post escode o q for digitado da url usado para conteudo pessoal do usuario--> 
-     <!--- get tem limite de 3,000 bite ex: 3,000 letras fotos arquivos etc use post-->
-       <!---autocomplete="on"  sugestao de completar destivado // on ativa -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formmulario</title>
+    </head>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <body>
+        <h1>meu Primeiro Formmulario</h1>
+        <!---method="" padrao e get // post escode o q for digitado da url usado para conteudo pessoal do usuario-->
+        <!--- get tem limite de 3,000 bite ex: 3,000 letras fotos arquivos etc use post-->
+        <!---autocomplete="on"  sugestao de completar destivado // on ativa -->
         <!--- for="inome"   add  o id do imputi pra forma a ligacao  se o label for clicado o imput e selecionado-->
-     <form action="cadastroi.php" autocomplete="on"  method="post"> 
-     
-    <p><label for="inome">Nome:</label> 
-    <input type="text" name="nome" id="inome"> </p>
-    <p><label for="iSobrenome">Sobrenome: </label> 
-    
-        <input type="text" name="Sobrenome" id="iSobrenome"> </p>
-    <p><input type="submit" value="Enviar"></p> <!--- Value e o nome q aparece na tela-->
-    <!--- NAME e mais util pro html e php
+        <form action="cadastroi.php" autocomplete="on" method="post">
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" />
+            </p>
+            <p>
+                <label for="iSobrenome">Sobrenome: </label>
+
+                <input type="text" name="Sobrenome" id="iSobrenome" />
+            </p>
+            <p><input type="submit" value="Enviar" /></p>
+            <!--- Value e o nome q aparece na tela-->
+            <!--- NAME e mais util pro html e php
             id  mais inportante pro javaScript
     -->
-    
-   <!---Nao e seguro para tornar seguro add htpps estude -->
-   
-    </form>
 
-
-
-
-
-
-</body>
+            <!---Nao e seguro para tornar seguro add htpps estude -->
+        </form>
+    </body>
 </html>
