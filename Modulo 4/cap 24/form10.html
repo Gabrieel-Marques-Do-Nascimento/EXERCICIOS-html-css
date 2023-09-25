@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastroi.php" method="get">  
+<p>
+    <label for="iano">Data de Nascimento</label>
+    <input type="number" name="ano" id="iano" max="2023" min="1900" oninput="calc()">
+</p>
+
+
+
+
+
+        <p>
+            <input type="submit" name="" id="" value="Enviar" />
+            <input type="reset" value="Limpar" />
+        </p>
+        <p>
+            <label for="iidade">Sua idade e :</label>
+            <output id="iidade">0</output>
+        </p>
+    </form>
+
+
+
+
+<script>
+
+    function calc(){
+        //                  pega o ano completo
+        let atual = new Date().getFullYear() //   rvalue e usado pra pegar num de objt
+        iidade.innerHTML  = Number(atual) - Number(iano.value)
+    }
+</script>
+</body>
+
+
+
+</html>

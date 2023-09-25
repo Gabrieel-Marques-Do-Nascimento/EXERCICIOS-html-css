@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <!--- out put mostra o valor de rangepro usuarii-->
+        
+        <form action="cadastroi.php" method="post">
+            <p>
+                <label for="inum">Numero</label>
+                <input
+                    type="range"
+                    name="Numero"
+                    id="inum"
+                    max="10"
+                    min="0"
+                    oninput="ival.innerHTML=Number(inum.value)"
+                />
+                <output id="ival"> 5 </output>
+            </p>
+
+            <p>
+                <input type="submit" name="" id="" value="Enviar" />
+                <input type="reset" value="Limpar" />
+            </p>
+        </form>
+    </body>
+</html>
