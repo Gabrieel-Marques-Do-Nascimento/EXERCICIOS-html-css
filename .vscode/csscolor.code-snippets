@@ -14,18 +14,9 @@
 		"    color:$2;"
 		],
 		"description": "Log output to console" // descricao pra q serve
-	 },
+	 }
      //parA add um snipper  { pri..{ snipper [ code ], },  pri..{ snipper [ code ], }  }
 
-"Print to console": {
-	"scope": "html,xml",   // tipo 
- 	"prefix": "come",  //atalho 
-		"body": [
-		"   <!-- $1-->", 
-        "   /* $2 */ "
-		],
-		"description": "Log output to console" // descricao pra q serve
-	 }
     
 }
 {
