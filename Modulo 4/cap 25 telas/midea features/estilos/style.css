@@ -10,6 +10,8 @@
     width: 100vw;
     height: 100vh;
     background-color: #233eff;
+    background-size: contain;  /* geralment e cover desa ves e  contein*/  
+    background-repeat: no-repeat;
     
  }
  h1{

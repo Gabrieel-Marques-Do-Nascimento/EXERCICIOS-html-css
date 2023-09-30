@@ -1,6 +1,7 @@
 @charset "UTF-8";
- /*aparelho en pe */  
+ /*aparelho en pe portrait*/  
  body{
-        /* background: rgb(135, 114, 114);
-        color:white; */
+        background: url(../imagens/cev-portrait.jpg) ;
+        background-position:center bottom ;
+        color:white;
  }
