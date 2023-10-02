@@ -8,7 +8,7 @@
 	// Example:
 "Print to console": {
 	"scope": "css,html",   // tipo 
- 	"prefix": "color",  //atalho 
+ 	"prefix": "cor",  //atalho 
 		"body": [
 		"    background: $1;",  // $num define a ordem tipo curso comessa no $1 enter vai pro $2
 		"    color:$2;"
