@@ -30,8 +30,16 @@ section#login{
     background-color: white;
    width: 250px;
    height: 500px;border-radius: 20px;
+
+
+   transition: width .3s , height .3s,background .3s;
+   transition-timing-function: ease;  /*transition suave */  
+}
+div{
+    padding: 10px;
 }
 section#login > div#imagem {
+    
     background: #5f2c82 url(../imagens/pexels-scott-webb-139198.jpg) no-repeat;
     height: 200px;
     background-size: cover;
