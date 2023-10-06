@@ -26,9 +26,10 @@ Telas Grandes: acima de 1200px
         float: right;
         width: 70%;
     }
-}
+} /* fora */
 
 @media screen and (min-width: 992px) {
+     /* telas grandes */  
     body {
         background: linear-gradient(to bottom, #49a09d 5%, #5f2c82 60%);
     }
@@ -52,6 +53,18 @@ div#formulario > h1 {
 }
 div#formulario > p{
     font-size: 1.3em;
-}
-}
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+}  /*fora
 
