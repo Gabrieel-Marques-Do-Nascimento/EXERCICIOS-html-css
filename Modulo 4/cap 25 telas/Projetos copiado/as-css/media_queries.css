@@ -44,7 +44,7 @@ Telas Grandes: acima de 1200px
         float: left;
         width: 50%;
     }
-}
+
 div#formulario > h1 {
     text-align: center;
     font-size: 2em;
@@ -53,5 +53,5 @@ div#formulario > h1 {
 div#formulario > p{
     font-size: 1.3em;
 }
-
+}
 
