@@ -17,8 +17,8 @@ body,html{
 }
 main{
     position: relative;
-    height: 100vh;
-    width: 100vw;
+    height: 99vh;
+    width: 97vw;
 
 }
 section#login{
@@ -43,4 +43,13 @@ section#login > div#imagem {
     background: #5f2c82 url(../imagens/pexels-scott-webb-139198.jpg) no-repeat;
     height: 200px;
     background-size: cover;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+font-size: 1.6em;
+}
+div#formulario > p{
+    font-size: 0.8em;
 }
