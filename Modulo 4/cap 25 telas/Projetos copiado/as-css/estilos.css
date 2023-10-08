@@ -60,6 +60,7 @@ div#formulario > h1 {
 }
 div#formulario > p {
     font-size: 0.8em;
+    margin: 5px 0px;
 }
 
 form > div.campo {
@@ -69,14 +70,14 @@ form > div.campo {
     display: block;
     height: 40px;
     border-radius: 8px;
-    margin: 5px opx;
+    margin: 5px 0px;
 }
 form > div.campo > label {
     display: none;
 }
-div.campo > span.material-icons {
-    
-    background-color: black;
+div.campo  span.material-icons {
+  
+    /* background-color: black; */
     font-size: 1.9em;
     color: white;
     width: 40px;
@@ -86,21 +87,17 @@ div.campo > input {
     background-color: #94cfcd;
     font-size: 1em;
     width: calc(100% - 45px); /*// calculo 100% - 50px */
-    
+  
     height: 100%;
     border: 0px;
     border-radius: 8px;
-    padding: 4px;
-    transform: translateY(-10px);
+    padding: 5px;
+    transform: translateY(-10.5px);
 }
-/*  background-color: #94cfcd;
-    font-size: 1em;
-    width: calc(100% - 45px);
-    height: 100%;
-    border: 0px;
-    border-radius: 8px;
-    padding: 4px;
-    transform: translateY(-10px);*/
+div.campo > input:focus{ /* quando clicado*/
+    background-color: white;
+    border: none;
+}
 form > input[type="submit"]{
     display: block;
     font-size: 1em;
