@@ -32,23 +32,24 @@ section#login {
     left: 50%;
 
     box-shadow: 0px 0px 10px rgba(15, 15, 15, 0.629);
-    transform: translate(-50%, -50%);
+
     background-color: white;
     width: 280px;
     height: 555px;
     border-radius: 20px;
-
+    /* transformacao e animacões coloque na ultima linha*/
+    transform: translate(-50%, -50%);
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease; /*transition suave */
 }
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/pexels-scott-webb-139198.jpg) no-repeat left bottom;
+    background: #5f2c82 url(../imagens/pexels-scott-webb-139198.jpg) no-repeat
+        left bottom;
     height: 210px;
     background-size: cover;
 }
-
 
 section#login > div#formulario {
     padding: 10px;
@@ -56,7 +57,6 @@ section#login > div#formulario {
 div#formulario > h1 {
     text-align: center;
     margin-bottom: 10px;
-    
 }
 div#formulario > p {
     font-size: 0.8em;
@@ -75,8 +75,7 @@ form > div.campo {
 form > div.campo > label {
     display: none;
 }
-div.campo  span.material-icons {
-  
+div.campo span.material-icons {
     /* background-color: black; */
     font-size: 1.9em;
     color: white;
@@ -87,18 +86,20 @@ div.campo > input {
     background-color: #94cfcd;
     font-size: 1em;
     width: calc(100% - 45px); /*// calculo 100% - 50px */
-  
+
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 5px;
+    /* transformacao e animacões coloque na ultima linha*/
     transform: translateY(-11px);
 }
-div.campo > input:focus{ /* quando clicado*/
+div.campo > input:focus {
+    /* quando clicado*/
     background-color: white;
     border: none;
 }
-form > input[type="submit"]{
+form > input[type="submit"] {
     display: block;
     font-size: 1em;
     width: 100%;
