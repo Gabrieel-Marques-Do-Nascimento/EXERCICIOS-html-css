@@ -15,7 +15,8 @@ Telas Grandes: acima de 1200px
         background: linear-gradient(to top, #49a09d, #5f2c82);
     }
     section#login {
-        width: 78vw;
+        width: 80vw;
+        height: 280;
     }
     section#login > div#imagem {
         float: left; /* mesmo sendo antigo o flote pode ser utilido muinto em */
@@ -34,7 +35,8 @@ Telas Grandes: acima de 1200px
         background: linear-gradient(to bottom, #49a09d 5%, #5f2c82 60%);
     }
     section#login {
-        width: 990px;
+        width: 950px;
+        height: 350px;
     }
     section#login > div#imagem {
         float: right;
@@ -52,7 +54,8 @@ div#formulario > h1 {
 
 }
 div#formulario > p{
-    font-size: 1.3em;
+    font-size: 1em;
+    margin: 20px 0px;
 }  
 
 
