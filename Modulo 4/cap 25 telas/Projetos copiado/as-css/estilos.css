@@ -34,8 +34,8 @@ section#login {
     box-shadow: 0px 0px 10px rgba(15, 15, 15, 0.629);
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 250px;
-    height: 515px;
+    width: 280px;
+    height: 555px;
     border-radius: 20px;
 
     transition: width 0.3s, height 0.3s;
@@ -45,7 +45,7 @@ section#login {
 section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/pexels-scott-webb-139198.jpg) no-repeat left bottom;
-    height: 200px;
+    height: 210px;
     background-size: cover;
 }
 
@@ -92,7 +92,7 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 5px;
-    transform: translateY(-10.5px);
+    transform: translateY(-11px);
 }
 div.campo > input:focus{ /* quando clicado*/
     background-color: white;
