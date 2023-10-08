@@ -47,7 +47,10 @@ Telas Grandes: acima de 1200px
         float: left;
         width: 50%;
     }
-
+div.campo  > input{
+      /* transformacao e animacões coloque na ultima linha*/
+      transform: translateY(-10px);
+}
 div#formulario > h1 {
     text-align: center;
     font-size: 2em;

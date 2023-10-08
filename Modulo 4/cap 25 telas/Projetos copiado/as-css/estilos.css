@@ -88,7 +88,7 @@ div.campo > input {
     width: calc(100% - 45px); /*// calculo 100% - 50px */
 
     height: 100%;
-    border: 0px;
+    border: 1px solid #5f2c82;
     border-radius: 8px;
     padding: 5px;
     /* transformacao e animacões coloque na ultima linha*/
