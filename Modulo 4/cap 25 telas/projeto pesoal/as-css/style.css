@@ -25,10 +25,10 @@ Telas Grandes: acima de 1200px
     padding: 0%;
     box-sizing: border-box;
 }
-body{
+body,html{
     background: linear-gradient(to top,#49a09d ,#5f2c82) no-repeat;
-    width: 98vw;
-    height: 96vh;
+    width: 100vw;
+    height: 100vh;
 }
 main{
     overflow: hidden;
@@ -38,17 +38,21 @@ main{
 }
 section#login{
     position: absolute;
-  
-    top: 50%;
-    left: 50%;
-    width: 280px;
+    width: 300px;
     height: 555px;
     background: white;
-    transform: translate(50% 50%);
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    transition-timing-function: ease;
+   
 }
 section#login > div#imagem{
-    height: 30%;
-    background: url(../imagens/pexels-scott-webb-139198.jpg);
+    height: 38%;
+    background: url(../imagens/pexels-scott-webb-139198.jpg) no-repeat center bottom;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
 }
 
 
