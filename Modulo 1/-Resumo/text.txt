@@ -1,0 +1,22 @@
+! ou html5  + enter para criar html basico
+
+pragrafo e criado dentre <p>  para quebrar linha usee <br>
+esite uma forma de representar alguns simbolos no html tipo < e > sao chamaddo.
+HTML Entities
+Espaço em branco &nbsp;
+® Marca registrada &reg;
+
+add emojis   emojipedia.org.
+la pegue  o codepoints ex: u+1f604 para inserir  e so substituir u+ por &#x
+
+
+
+
+
+
+
+
+
+
+
+

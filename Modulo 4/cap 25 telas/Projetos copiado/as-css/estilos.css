@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/*
+ paletas de cores 
+ verde : #49a09d
+ lilas : #5f2c82
+  */
+
+/* para celular */
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    box-sizing: border-box; /* borda faca parte conta */
+    margin: 0px;
+    padding: 0px;
+}
+body,
+html {
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login {
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    box-shadow: 0px 0px 10px rgba(15, 15, 15, 0.629);
+
+    background-color: white;
+    width: 280px;
+    height: 555px;
+    border-radius: 20px;
+    /* transformacao e animacões coloque na ultima linha*/
+    transform: translate(-50%, -50%);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease; /*transition suave */
+}
+
+section#login > div#imagem {
+    display: block;
+    background: #5f2c82 url(../imagens/pexels-scott-webb-139198.jpg) no-repeat
+        left bottom;
+    height: 210px;
+    background-size: cover;
+}
+
+section#login > div#formulario {
+    padding: 10px;
+}
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario > p {
+    font-size: 0.8em;
+    margin: 5px 0px;
+}
+
+form > div.campo {
+    background-color: #5f2c82;
+    border: 2px solid #5f2c82;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+form > div.campo > label {
+    display: none;
+}
+div.campo span.material-icons {
+    /* background-color: black; */
+    font-size: 1.9em;
+    color: white;
+    width: 40px;
+    padding: 5px;
+}
+div.campo > input {
+    background-color: #94cfcd;
+    font-size: 1em;
+    width: calc(100% - 45px); /*// calculo 100% - 50px */
+
+    height: 100%;
+    border: 1px solid #5f2c82;
+    border-radius: 8px;
+    padding: 5px;
+    /* transformacao e animacões coloque na ultima linha*/
+    transform: translateY(-11px);
+}
+div.campo > input:focus {
+    /* quando clicado*/
+    background-color: white;
+    border: none;
+}
+form > input[type="submit"] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #53aaa7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form > input[type="submit"]:hover {
+    background: #1d3e3d;
+}
+form > a {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background: white;
+    padding-top: 5px;
+    margin-top: 5px;
+    color: #1d3e3d;
+    text-decoration: none;
+    border: 1px solid #1d3e3d;
+    border-radius: 5px;
+}
+
+form > a:hover {
+    background-color: #70f7f2;
+}
+form > a > span.material-icons {
+    font-size: 0.8em;
+}
