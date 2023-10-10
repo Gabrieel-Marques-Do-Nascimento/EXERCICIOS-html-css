@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 /* typical device braakpoints
 --------------------------------
            medidas w3c        
@@ -20,23 +19,24 @@ Telas Grandes: acima de 1200px
 
 /* para celular */
 
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-body,html{
-    background: linear-gradient(to top,#49a09d ,#5f2c82) no-repeat;
+body,
+html {
+    background: linear-gradient(to top, #49a09d, #5f2c82) no-repeat;
     width: 100vw;
     height: 100vh;
 }
-main{
+main {
     overflow: hidden;
     position: relative;
- width: 100vw;
- height: 100vh;
+    width: 100vw;
+    height: 100vh;
 }
-section#login{
+section#login {
     overflow: hidden;
     position: absolute;
     width: 300px;
@@ -45,74 +45,82 @@ section#login{
     border-radius: 20px;
     top: 50%;
     left: 50%;
-    transform: translate(-50% ,-50%);
+    transform: translate(-50%, -50%);
     transition-timing-function: ease;
-   
+    transition: width 0.3, height 0.4;
 }
-section#login > div#imagem{
-  
+section#login > div#imagem {
     height: 38%;
-    background: url(../imagens/pexels-scott-webb-139198.jpg) no-repeat center bottom;
+    background: url(../imagens/pexels-scott-webb-139198.jpg) no-repeat center
+        bottom;
     background-size: cover;
-    
-
 }
-div#formulario{
-  display: block;
-  padding: 8px;
+div#formulario {
+    display: block;
+    padding: 8px;
 }
-div#formulario > *{
-     
+div#formulario > * {
 }
-div#formulario > h1{
+div#formulario > h1 {
     text-align: center;
-   padding:5px 0px ;
+    padding: 5px 0px;
 }
 div#formulario > p {
     font-size: 1em;
-    
 }
-input{
-    width: calc(100% - 30px) ;
-    border-radius: 10px;height: 40px;
+input {
+    border-radius: 10px;
 }
 
 input[type="submit"] {
-  text-align: center;
-  
-  width: 100%;
+    text-align: center;
+    background-color: #8bece8;
+    width: 100%;
+    height: 43px;
 }
-  a {
+input[type="submit"]:hover {
+    background-color: #12ccc9;
+}
+a {
+    color: #0d3631;
     display: block;
     text-align: center;
-    height: 40px;
-    border-radius: 20px;
-    border: #49a09d solid 1px;
-    margin-top: 5px ;
-    padding-top: 5px;
+    height: 42px;
+    border-radius: 10px;
+    border: #0d3631 solid 1px;
+    margin-top: 7px;
+    padding-top: 10px;
+    text-decoration: none;
 }
-a:hover{
-    text-decoration: underline;
+a:hover {
+    
+    background-color: #8bece8;
 }
-a >span.material-symbols-outlined {
+a > span.material-symbols-outlined {
     font-size: 1em;
     text-align: center;
-   width: 40px;
+    width: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+div#campo {
+    background-color: #5f2c82;
+    margin: 4px 0;
+    border-radius: 10px;
+}
+div#campo > span.material-symbols-outlined {
+    width: 40px;
+    padding:  5px 5px 5px 5px;
+    transform: translateY(5px);
+    font-size: 1.9em;
+    color: white;
+    text-align: center;
+}
+div#campo > input {
+    width: calc(100% - 45px);
+   
+    height: 48px;
+    background-color: #94cfcd;
+    transform: translateY(-5px);
+}
+div#campo > input:focus{
+   background: white;
+}
