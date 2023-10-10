@@ -114,8 +114,8 @@ div#campo > span.material-symbols-outlined {
     color: white;
     text-align: center;
 }
-div#campo > input {
-    width: calc(100% - 45px);
+div#campo > input { 
+    width: calc(100% - 45px); 
    
     height: 48px;
     background-color: #94cfcd;
