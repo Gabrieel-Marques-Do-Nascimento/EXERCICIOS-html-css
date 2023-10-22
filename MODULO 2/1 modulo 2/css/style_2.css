@@ -8,10 +8,12 @@
 --cor4:#1a5c37;
 --cor5:#063d1e;
 --font0: sans-serif;
-
+/* variaveis css*/
 }
 
-*{margin: 0%;}
+*{margin: 0%;
+padding: 0%;
+}
 body{background-color: #c5ebd6;
      margin: 0%;
      }
